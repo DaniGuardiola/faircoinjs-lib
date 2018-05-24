@@ -1,3 +1,5 @@
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 # FaircoinJS (faircoinjs-lib)
 
 FaircoinJS is a fork of `bitcoinjs-lib` with Faircoin support.
