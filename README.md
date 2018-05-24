@@ -28,7 +28,7 @@ import faircoin from 'faircoinjs-lib'
 const faircoin = require('faircoinjs-lib')
 ```
 
-There are only two additions in the library:
+There are only two additions to `bitcoinjs-lib`:
 
 ### Networks
 
