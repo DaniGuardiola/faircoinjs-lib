@@ -2,7 +2,7 @@
 
 FaircoinJS is a fork of `bitcoinjs-lib` with Faircoin support.
 
-Adapted and maintained by [@DaniGuardiola](github.com/DaniGuardiola).
+Adapted and maintained by [@DaniGuardiola](https://github.com/DaniGuardiola).
 
 ## Features
 
