@@ -73,6 +73,7 @@ const Block = require('faircoinjs-lib').FairBlock
 
 ## To do
 
+- [ ] Add testnet network
 - [ ] Add tests for larger blocks with transactions
 - [ ] Add tests for faircoin transactions
 - [ ] Add more tests for addresses
