@@ -84,6 +84,6 @@ const Block = require('faircoinjs-lib').FairBlock
 
 ## On documentation
 
-The Faircoin specific documentation has been explained above, the rest works exactly the same as `bitcoinjs-lib`. To make use for the Faircoin network the only thing you need to keep in mind are the `faircoin` (and `faircoin_testnet`) network and the `FairBlock` class.
+The Faircoin specific documentation has been explained above, the rest works exactly the same as `bitcoinjs-lib`.
 
 The documentation for `bitcoinjs-lib` is available on Github [bitcoinjs/bitcoinjs-lib#v3.3.2](https://github.com/bitcoinjs/bitcoinjs-lib/tree/v3.3.2).
