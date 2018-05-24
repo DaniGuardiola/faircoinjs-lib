@@ -49,9 +49,9 @@ A new `FairBlock` class has been introduced which extends the base `Block` class
  - They have `creatorId` (CVN id) and `hashPayload` (TODO: what exactly is hashPayload?)
  - Due to these changes, length is `108 bytes` instead of Bitcoin's `80 bytes` block headers
 
-Everything else works exactly the same as Bitcoin.
+Everything else works exactly the same as with Bitcoin.
 
-If your app supports both Bitcoin (or Bitcoin-like coin) and Faircoin, you probably want to write this:
+If your app supports both Bitcoin (or a Bitcoin-like coin) and Faircoin, you probably want to write this:
 
 ```js
 // modern JS import
@@ -68,7 +68,7 @@ If you're only implementing Faircoin, you could just write:
 import { FairBlock: Block } from 'faircoinjs-lib'
 
 // NodeJS classic
-const Block = require('faircoinjs-lib').FairBlock
+const { FairBlock: Block } = require('faircoinjs-lib')
 ```
 
 ## To do
