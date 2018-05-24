@@ -82,7 +82,7 @@ const Block = require('faircoinjs-lib').FairBlock
 - [ ] Integration tests?
 - [ ] Allow randombytes reimplementation (for example using a React Native library)
 
-## On documentation
+## Documentation
 
 The Faircoin specific documentation has been explained above, the rest works exactly the same as `bitcoinjs-lib`.
 
