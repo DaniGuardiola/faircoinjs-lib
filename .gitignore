@@ -1,0 +1,10 @@
+# yarn
+node_modules
+yarn-error.log
+
+# nyc
+.nyc_output
+coverage
+
+# docco
+docs

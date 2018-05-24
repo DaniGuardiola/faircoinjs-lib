@@ -1,0 +1,12 @@
+{
+  "standard": [
+    {
+      "network": "faircoin",
+      "version": 95,
+      "hash": "98eee1b9d0f7d085873fa8ce488533f6d8b8f009",
+      "base58check": "fU3wRGZwese65gZqRiQiJvE483iyjY2QD4",
+      "script": "OP_DUP OP_HASH160 98eee1b9d0f7d085873fa8ce488533f6d8b8f009 OP_EQUALVERIFY OP_CHECKSIG"
+    }
+  ]
+}
+

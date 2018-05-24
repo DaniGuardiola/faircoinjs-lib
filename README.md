@@ -77,6 +77,9 @@ const Block = require('faircoinjs-lib').FairBlock
 - [ ] Add tests for faircoin transactions
 - [ ] Add more tests for addresses
 - [ ] Add faircoin-specific functionality
+- [ ] Add tests for ECPair?
+- [ ] Integration tests?
+- [ ] Allow randombytes reimplementation (for example using a React Native library)
 
 ## On documentation
 
