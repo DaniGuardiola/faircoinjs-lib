@@ -28,7 +28,7 @@ import faircoin from 'faircoinjs-lib'
 const faircoin = require('faircoinjs-lib')
 ```
 
-There are only two new types of elements in the library:
+There are only two additions in the library:
 
 ### Networks
 
