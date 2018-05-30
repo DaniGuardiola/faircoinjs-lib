@@ -48,7 +48,7 @@ A new `FairBlock` class has been introduced which extends the base `Block` class
 - `Block#calculateTarget()` and `Block#checkProofOfWork()` do not make sense in Faircoin and therefore will throw when attempted to use
 - Hexadecimal block headers are different in Faircoin:
   - They don't have `bits` nor `nonce` (those are two parameters involved in Bitcoin's Proof of Work)  
-  - They have `creatorId` (CVN id) and `hashPayload` (TODO: what exactly is hashPayload?)
+  - They have `creatorId` (CVN id) and `hashPayload`
   - Due to these changes, length is `108 bytes` instead of Bitcoin's `80 bytes` block headers
 
 Everything else works exactly the same as with Bitcoin.
