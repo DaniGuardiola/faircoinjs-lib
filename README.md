@@ -1,10 +1,12 @@
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
+> **Important!** This library is no longer maintained so proceed with caution.
+
 # FaircoinJS (faircoinjs-lib)
 
-FaircoinJS is a fork of `bitcoinjs-lib` with Faircoin support.
+FaircoinJS is an extension of `bitcoinjs-lib` with Faircoin support.
 
-Adapted and maintained by [@DaniGuardiola](https://github.com/DaniGuardiola).
+Adapted by [@DaniGuardiola](https://github.com/DaniGuardiola).
 
 ## Features
 
@@ -45,7 +47,7 @@ Parameters obtained from: https://github.com/faircoin/faircoin/wiki/FairCoin-dev
 
 A new `FairBlock` class has been introduced which extends the base `Block` class, because Faircoin blocks are slightly different than Bitcoin's or Litecoin's. The main changes are:
 
-- `Block#calculateTarget()` and `Block#checkProofOfWork()` do not make sense in Faircoin and therefore will throw when attempted to use
+- `Block#calculateTarget()` and `Block#checkProofOfWork()` do not make sense in Faircoin and therefore will throw an error when attempted to use
 - Hexadecimal block headers are different in Faircoin:
   - They don't have `bits` nor `nonce` (those are two parameters involved in Bitcoin's Proof of Work)  
   - They have `creatorId` (CVN id) and `hashPayload`
@@ -73,19 +75,8 @@ import { FairBlock: Block } from 'faircoinjs-lib'
 const { FairBlock: Block } = require('faircoinjs-lib')
 ```
 
-## To do
-
-- [ ] Add testnet network
-- [ ] Add tests for larger blocks with transactions
-- [ ] Add tests for faircoin transactions
-- [ ] Add more tests for addresses
-- [ ] Add faircoin-specific functionality
-- [ ] Add tests for ECPair?
-- [ ] Integration tests?
-- [ ] Allow randombytes reimplementation (for example using a React Native library)
-
 ## Documentation
 
 The Faircoin specific documentation has been explained above, the rest works exactly the same as `bitcoinjs-lib`.
 
-The documentation for `bitcoinjs-lib` is available on Github [bitcoinjs/bitcoinjs-lib#v3.3.2](https://github.com/bitcoinjs/bitcoinjs-lib/tree/v3.3.2).
+The documentation for `bitcoinjs-lib` is available on Github [bitcoinjs/bitcoinjs-lib#v3.3.2](https://github.com/bitcoinjs/bitcoinjs-lib/).
